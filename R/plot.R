@@ -75,4 +75,3 @@ flower_plot <- function(sample, value, subvalue=NULL, start=90, a=0.5, b=2,
 
 # test
 #flower_plot2(paste('sp',1:22,sep = ''),1:22,ellipse_col = 1:22,circle_text = 'core=10')
-
