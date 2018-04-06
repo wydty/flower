@@ -5,8 +5,14 @@
 \title{plot flower plot}
 \usage{
 flower_plot(sample, value, start = 90, a = 0.5, b = 2,
-  ellipse_col = rgb(135, 206, 235, 150, max = 255), circle_col = rgb(0, 162,
-  214, max = 255), circle_text_cex = 1.5)
+  ellipse_col = rgb(135, 206, 235, 150, max = 255),
+  text_cex = 1.5,
+  circle_col = 'white',
+  circle_border=add.alpha('black',.5),
+  circle_r=1.1,
+  circle_text_cex = 1.5,
+  circle_text_col = add.alpha('black',.8),
+  circle_text='core')
 }
 \arguments{
 \item{sample}{a vector of sample names}
